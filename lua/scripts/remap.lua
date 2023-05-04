@@ -25,3 +25,6 @@ vim.keymap.set("n", "<leader>f", function()
 end)
 
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+
+vim.keymap.set("n", "<leader>q", ":bd<CR>")
+vim.keymap.set("n", "<leader>Q", ":qa<CR>")
