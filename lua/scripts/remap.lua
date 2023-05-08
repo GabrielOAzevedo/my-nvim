@@ -28,3 +28,8 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 vim.keymap.set("n", "<leader>q", ":bd<CR>")
 vim.keymap.set("n", "<leader>Q", ":qa<CR>")
+
+vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>wa", ":wa<CR>")
+
+vim.keymap.set("n", "<leader>t", "<C-w>w")
