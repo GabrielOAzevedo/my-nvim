@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-
+vim.keymap.set("n", "<leader>pv", ":Explore<CR>")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
@@ -21,7 +21,7 @@ vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
 vim.keymap.set("n", "<leader>f", function()
-    vim.lsp.buf.format()
+  vim.lsp.buf.format()
 end)
 
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
@@ -33,3 +33,5 @@ vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>wa", ":wa<CR>")
 
 vim.keymap.set("n", "<leader>t", "<C-w>w")
+vim.keymap.set("n", "<Tab>", ":bn<CR>")
+vim.keymap.set("n", "<S-Tab>", ":bp<CR>")
