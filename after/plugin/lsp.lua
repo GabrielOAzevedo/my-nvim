@@ -8,6 +8,10 @@ lsp.ensure_installed({
 
 lsp.on_attach(function(client, bufnr)
 	lsp.default_keymaps({ buffer = bufnr })
+  lsp.buffer_autoformat()
+  vim.keymap.set({"n", "v"}, "<leader>gq", function ()
+    vim.lsp.buf.format({async = false, timeout_ms = 10000})
+  end)
 end)
 
 lsp.setup()

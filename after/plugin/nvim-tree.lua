@@ -8,7 +8,8 @@ require("nvim-tree").setup({
   view = {
     width = 30,
     number = true,
-    relativenumber = true
+    relativenumber = true,
+    centralize_selection = true,
   },
   renderer = {
     group_empty = true,
