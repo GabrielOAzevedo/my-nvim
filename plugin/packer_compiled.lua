@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/Users/gabrielazevedo/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/gabrielazevedo/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/gabrielazevedo/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -98,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gabrielazevedo/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/gabrielazevedo/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,

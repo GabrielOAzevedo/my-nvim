@@ -13,7 +13,9 @@ return require('packer').startup(function(use)
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use {
+    "sainnhe/gruvbox-material"
+  }
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
